@@ -5,15 +5,21 @@ const contactLoad = () => {
     const titleH1 = document.createElement("h1");
     titleH1.textContent = "Contact";
 
-    const paraDescription = document.createElement("p");
-    paraDescription.innerHTML = "pinoy@gmail.comn<br/>75015<br/>1 rue victor Hugo";
 
+    const paraDescription = document.createElement("p");
+    const contactContainer = document.createElement("div");
+    contactContainer.classList.add("contact-container");
+    paraDescription.innerHTML = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+    paraDescription.classList.add("contact-text");
+
+    contactContainer.appendChild(paraDescription);
+    
     //empty the content
     contentDiv.innerHTML = "";
 
     //fill the main content with the new content
     contentDiv.appendChild(titleH1);
-    contentDiv.appendChild(paraDescription);
+    contentDiv.appendChild(contactContainer);
 
 }
 
