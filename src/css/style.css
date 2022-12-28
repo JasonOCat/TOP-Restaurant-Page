@@ -1,3 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;700&display=swap');
+
+:root {
+    font-family: 'Montserrat', sans-serif;
+    --main-color: #1A92D3;
+    --grey: #E2E8EF;
+    --bborder: 1px solid black;
+    --width-small-profile: 45px;
+    --height-small-profile: 45px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a,
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
 p {
-    color: red;
+    color: #636363;
 }
