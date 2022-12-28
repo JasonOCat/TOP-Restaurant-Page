@@ -1,3 +1,5 @@
+import Sinigang from './img/sinigang.jpg';
+
 const pageLoad = () => {
 
     const contentDiv = document.querySelector("#content");
@@ -8,8 +10,8 @@ const pageLoad = () => {
     const paraDescription = document.createElement("p");
     paraDescription.textContent = "Traditional pinoy dishes !!";
 
-    const imgBanner = document.createElement("img");
-    imgBanner.setAttribute("src", "../siningang.webp");
+    const imgBanner = new Image();
+    imgBanner.src = Sinigang;
 
     //empty the content
     contentDiv.innerHTML = "";
