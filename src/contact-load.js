@@ -6,7 +6,7 @@ const contactLoad = () => {
     titleH1.textContent = "Contact";
 
     const paraDescription = document.createElement("p");
-    paraDescription.textContent = "pinoy@gmail.comn75015 \n 1 rue victor Hugo";
+    paraDescription.innerHTML = "pinoy@gmail.comn<br/>75015<br/>1 rue victor Hugo";
 
     const imgBanner = document.createElement("img");
     imgBanner.setAttribute("src", "../siningang.webp");
