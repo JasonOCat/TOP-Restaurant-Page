@@ -26,12 +26,17 @@ ul {
 }
 
 
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 
 body {
     background: rgba(0, 0, 0, .70) url("../img/sinigang.jpg");
     background-size: cover;
     background-blend-mode: darken;
     background-attachment: fixed;
+
 }
 
 
