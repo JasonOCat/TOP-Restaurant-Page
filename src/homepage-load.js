@@ -8,7 +8,7 @@ const pageLoad = () => {
     titleH1.textContent = "The Filipino restaurant";
 
     const paraDescription = document.createElement("p");
-    paraDescription.textContent = "Traditional pinoy dishes !!";
+    paraDescription.textContent = "Traditional pinoy dishes !";
 
     const imgBanner = new Image();
     imgBanner.src = Sinigang;
