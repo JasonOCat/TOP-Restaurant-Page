@@ -1,0 +1,1 @@
+(()=>{const e=document.querySelector("#content"),t=document.createElement("h1");t.textContent="The Filipino restaurant";const n=document.createElement("p");n.textContent="Traditional pinoy dishes !";const i=document.createElement("img");i.setAttribute("src","../siningang.webp"),e.appendChild(t),e.appendChild(n),e.appendChild(i)})();
