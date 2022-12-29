@@ -62,21 +62,18 @@ const menuLoad = () => {
     sinigang.src = Sinigang;
     sinigang.setAttribute("width","100%");
     const dish1 = document.querySelector("#dish1");
-    console.log(dish1);
     dish1.appendChild(sinigang);
 
     const sisig = new Image();
     sisig.src = Sisig;
     sisig.setAttribute("width","100%");
     const dish2 = document.querySelector("#dish2");
-    console.log(dish2);
     dish2.appendChild(sisig);
 
     const adobo = new Image();
     adobo.src = ChickenAdobo;
     adobo.setAttribute("width","100%");
     const dish3 = document.querySelector("#dish3");
-    console.log(dish3);
     dish3.appendChild(adobo);
 
 }

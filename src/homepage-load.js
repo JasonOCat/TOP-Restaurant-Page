@@ -25,6 +25,7 @@ const pageLoad = () => {
     contentDiv.appendChild(titleH1);
     contentDiv.appendChild(paraDescription);
     contentDiv.appendChild(linkMenu);
+    console.log("hello");
 }
 
 

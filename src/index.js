@@ -13,3 +13,8 @@ pageLoad();
 menuHome.addEventListener('click', pageLoad);
 menuMenu.addEventListener('click', menuLoad);
 menuContact.addEventListener('click', contactLoad);
+
+
+const obj = {a: 'alpha', b: 'beta'};
+const newOjb = {...obj, c: 'charlie'};
+console.log(newObj);
